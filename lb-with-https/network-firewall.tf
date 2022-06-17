@@ -6,7 +6,7 @@ resource "google_compute_firewall" "allow-http" {
     protocol = "tcp"
     ports    = ["80"]
   }
-  source_ranges = ["0.0.0.0"]
+  source_ranges = ["0.0.0.0","35.235.240.0/20"]
   target_tags = ["http"]
 }
 # allow https traffic
@@ -18,7 +18,7 @@ resource "google_compute_firewall" "allow-https" {
     ports    = ["443"]
   }
   
-  source_ranges = ["0.0.0.0"]
+  source_ranges = ["0.0.0.0","35.235.240.0/20"]
   target_tags = ["https"]
 }
 # allow ssh traffic
@@ -29,7 +29,7 @@ resource "google_compute_firewall" "allow-ssh" {
     protocol = "tcp"
     ports    = ["22"]
   }
-  source_ranges = ["0.0.0.0"]
+  source_ranges = ["0.0.0.0","35.235.240.0/20"]
   target_tags = ["ssh"]
 }
 # allow rdp traffic
@@ -40,6 +40,6 @@ resource "google_compute_firewall" "allow-rdp" {
     protocol = "tcp"
     ports    = ["3389"]
   }
-  source_ranges = ["0.0.0.0"]
+  source_ranges = ["0.0.0.0","35.235.240.0/20"]
   target_tags = ["rdp"]
 }
