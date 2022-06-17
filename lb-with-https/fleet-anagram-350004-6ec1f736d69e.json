@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fleet-anagram-350004",
+  "private_key_id": "6ec1f736d69ec9a6371872f4f59c79bcadf825a4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5U2G9931a+4o1\nZNANNK6fli0UAXt86JlMP7SzYNvfsxYWlImADWvHTOTalCvk1VVsMJ6iY2Ijs/pT\n/reeJ48t+hOJClqwtGjmCs5frkpq8gLu4N9Iut/2q83uL8wIRUxmLHvuIjhWapwf\nMXZuLmL+WTPvCArLIQ2MfRuTrkzRDHf9zNySyFi16Ss12wz9FoejaZ4amZAddfdh\n//ha0qsxO65q67LgaYNT4p/FaeP3J2TIvILDBJ7OQuy42tAPuJqmKOr5+yHPW7f6\ntwmAsa9HXidn62HPUc/TMfpgLtSZnTZ8Nwvq0Wqxdq+e2/V6kolq4pNOP9Nmionl\neu/2ISJPAgMBAAECggEAFMP3sxYky6myZiKHqr3OcJSeicaovumT08Fc+VnPCT/D\nJ9Xjmko8Bgw4UG2YhX7fSszKhEjn2YxJw65KMMR0p02FcYOMKeSXzxRC5OGzS6HB\nG7cYDcmICCxer2Os/vg/g+tUGkNnVfeCytP7Vdkzams1sIDm2gqNaW0om+GZ5d/I\nq8nJbxOo7I8MeBz405WVULj1zKmPaNJhFkw+YwEnSsqSuzALk7mChzhPCLcQtxOz\nNakRzUbypvZG5cckhhS9E77JztkEB7PNMhNvsJLCWp6aP4a2p1v1UXaJRljc2xta\nMiDRGdjnwioRT7meHKLI3ISuoMflk4cO6EH/9JEEYQKBgQDznPz7dHEyZ+LrHA6j\nZXIoiiHTbDDqCOKo9TaFJZMQceWbXtC6jK+/V0IYAy4yRk2psmg2yrMzDSRqm6hC\nC0yae+L2pBAG8dtlf6jT+bUV3X1EjQyYyY+UvyvTosMhSI7gjj8Tagkrh9/SOfWA\nFgBTAZK5DHaEKE80FHHb2GDbdwKBgQDCv7BwKQQzzNoIiZWH5wrbN+z+ebhuxtF6\nsuHIY61Eweuxjzo5zhkpROCkulPoayLcQFDsHKQRiSs52xNI+NO7QweXUH9r/3ZX\n/jqndFrhCnbCtUd61k1rw97rAL7EuagZc4XWbomsICjWOEqiE5dju4IVPPr8hmtn\n4BxKnrR16QKBgQCEv4cbftgwH2wHscJIR39tl9fW3Z3J6g2ZBAYxh8gbrfTwNTqI\nbSFXorThYNpLiwPG9PDU6p+7se2mKiwF0SJtDBUhUUVqg2CKboYQ/IEw6QDZ2gKD\nP1J+O64mJQsvl9pDgz/b1GwqzF+qruqYYWTL1o+dRq1OVqjSOFHS+pXNAQKBgHHN\nhHQ2c781cR/WDmxpRf3Ok44tYOpTAmyaBbiNDt6EF5Ad61+GIUvtdPyt6YSCvs9I\nQkGHhxS8PGdFruJQjaH7TH9Oyfc5RFWtOWdLZiPlcnrbZhbRDlLwFd7sA46AE0w0\nJrykwYy1CkgMgwhtPGVKWHzCssRIZJFB9CZi0X+pAoGBAKqyZq8NJWYT+Xy0oQ8y\nrSuRGqdXMTyq43gXpudEd4mTAtcew30usMFeIfJQ7Q6IY/uU5wPM1fTKewj71h++\nCudNP1GNJFKS8CIyYnHQFCuZvlYxVKoYmdpEjRyK07TpDETuX1x/cIKfI1ZSOZ/T\nt4UUgxvR6s0mbkZZbxaRuRwu\n-----END PRIVATE KEY-----\n",
+  "client_email": "workingwithtf@fleet-anagram-350004.iam.gserviceaccount.com",
+  "client_id": "112371990222366324846",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/workingwithtf%40fleet-anagram-350004.iam.gserviceaccount.com"
+}
