@@ -12,7 +12,7 @@ resource "google_compute_instance" "web_private_1" {
     }
   }
   
-  metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq build-essential apache2"
+  metadata_startup_script = "sudo apt-get update; sudo apt-get install -y apache2"
   network_interface {
     network = google_compute_network.vpc.name
     subnetwork = google_compute_subnetwork.private_subnet_1.name
@@ -31,7 +31,7 @@ boot_disk {
     }
   }
   
-  metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq build-essential apache2"
+  metadata_startup_script = "sudo apt-get update; sudo apt-get install -y apache2"
 network_interface {
     network = google_compute_network.vpc.name
     subnetwork = google_compute_subnetwork.private_subnet_1.name
