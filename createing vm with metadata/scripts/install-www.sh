@@ -5,7 +5,7 @@ sudo a2ensite default-ssl
 sudo a2enmod ssl
 sudo service apache2 restart
 echo 
-  '<!DOCTYPE html>
+  '<!doctype html>
 <html>
         <head>
 <style>
