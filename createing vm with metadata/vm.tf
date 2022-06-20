@@ -1,5 +1,5 @@
 provider "google" {
- #credentials = file("fleet-anagram-350004-6ec1f736d69e.json")
+ credentials = file("fleet-anagram-350004-6ec1f736d69e.json")
  project     = "fleet-anagram-350004"
  region      = "us-central1"
   
