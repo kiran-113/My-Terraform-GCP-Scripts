@@ -1,8 +1,5 @@
 provider "google" {
- credentials = file("fleet-anagram-350004-6ec1f736d69e.json")
- project     = "fleet-anagram-350004"
- region      = "us-central1"
-  
+  version = "~> 4.0"  
 }
 resource "google_compute_address" "static" {
   name        = "ipv4-address-${count.index}"
