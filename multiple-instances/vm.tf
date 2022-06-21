@@ -1,7 +1,7 @@
 provider "google" {
   project     = var.project
   region      = "asia-south1"
-  credentials = "fleet-anagram-350004-6ec1f736d69e.json"
+  credentials = "prod-350509-d3fe23141246.json"
 }
 resource "google_compute_address" "static" {
   project     = var.project
