@@ -1,10 +1,12 @@
 provider "google" {
-  version = "~> 4.0"  
+  project     = var.project
+  region      = "us-west1"
+  credentials = "fleet-anagram-350004-6ec1f736d69e.json"
 }
 resource "google_compute_address" "static" {
   project     = var.project
   name        = "ipv4-address-${count.index}"
-  region      = "us-central1"
+  region      = "us-west1"
   count       = 2
   
 }
@@ -18,7 +20,7 @@ resource "google_compute_instance" "instance_with_ip" {
   project      = var.project
   name         = "my-machine-${count.index}"
   machine_type = "f1-micro"
-  zone         = "us-central1-a"
+  zone         = "us-west1-a"
   tags         = ["http-server","https-server"]
   count        = 2
  
