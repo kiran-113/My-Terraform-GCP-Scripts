@@ -5,6 +5,8 @@ terraform {
     google = {
       version = "~> 4.0"
     }
-    
- }
+    null = {
+      version = "~> 2.1"
+    }
+  }
 }
