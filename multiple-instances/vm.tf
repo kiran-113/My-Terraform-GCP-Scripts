@@ -1,14 +1,7 @@
 provider "google" {
   project     = var.project
-  region      = "asia-south1"
+  region      = "us-west1"
   credentials = "prod-350509-d3fe23141246.json"
-}
-resource "google_compute_address" "static" {
-  project     = var.project
-  name        = "ipv4-address-${count.index}"
-  region      = "asia-south1"
-  count       = 2
-  
 }
 
 data "google_compute_image" "debian_image" {
@@ -18,11 +11,11 @@ data "google_compute_image" "debian_image" {
 
 resource "google_compute_instance" "instance_with_ip" {
   project      = var.project
-  zone         = "asia-south1-a"
+  zone         = "us-west1-a"
   name         = "my-machine-${count.index}"
   machine_type = "f1-micro"
   tags         = ["http-server","https-server"]
-  count        = 2
+  count        = 1
  
   boot_disk {
     initialize_params {
